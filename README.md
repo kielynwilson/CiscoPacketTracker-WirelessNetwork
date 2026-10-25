@@ -1,6 +1,3 @@
-# CiscoPacketTracer-WirelessNetwork
-This Cisco Packet Tracer lab consists of configuring and verifying a basic wireless network. The lab consists of configuring the wireless router, enabling DHCP to assign IP addresses automatically, securing the network with WPA2, and verifying DNS and end-to-end connectivity between devices. This lab provided hands-on experience in configuring a wireless network, managing IP addresses, securing the network, and basic network troubleshooting.
-
 # Cisco Packet Tracer – Wireless Network Configuration
 
 ## Project Overview
