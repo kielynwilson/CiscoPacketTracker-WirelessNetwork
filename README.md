@@ -12,9 +12,7 @@ Wireless LAN configuration, DHCP, IPv4, WPA2 wireless security, DNS, ICMP, and H
 
 The network topology consists of a home wireless router, cable modem, coaxial splitter, wired desktop computers, a wireless laptop, an ISP connection, and an external Skills For All server.
 
-<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/78b8cad2-774c-43de-8b20-e55b1d2e6159" />
-
-
+![Network Topology](screenshots/01-network-topology.png)
 
 
 ### Network Components
