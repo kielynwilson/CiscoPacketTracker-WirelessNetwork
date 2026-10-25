@@ -14,7 +14,6 @@ The network topology consists of a home wireless router, cable modem, coaxial sp
 
 ![Network Topology](screenshots/01-network-topology.png)
 
-
 ### Network Components
 
 - Home Wireless Router
@@ -41,7 +40,7 @@ This section of the lab covers the configuration of the home wireless router for
 - DNS Server: 209.165.200.230
 - Internet Connection Type: Automatic Configuration – DHCP
   
-<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/f562131c-d79f-4d3a-ad1a-ab4d8f9ab9e9" />
+![Router LAN and DHCP Configuration](screenshots/02-router-lan-dhcp-configuration.png)
 
 DHCP automatically configures the IP address, subnet mask, default gateway and DNS servers for all network devices connected to the router.
 
@@ -58,7 +57,7 @@ A 2.4 GHz wireless LAN was configured on the home wireless router.
 - Wireless Channel: Channel 1 / 2.412 GHz
 - SSID Broadcast: Enabled
 
-<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/3bb9b418-21e0-48db-a221-902d8f3208ba" />
+![Wireless SSID Configuration](screenshots/03-wireless-ssid-configuration.png)
 
 
 The SSID is the name of the Wireless LAN that is broadcast by the Home Wireless Router.
@@ -78,7 +77,7 @@ The wireless network was protected using WPA2-Personal with AES encryption.
 
 The wireless passphrase has been intentionally excluded from this documentation as a security best practice.
 
-<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/a5f11f23-f7f1-4393-b561-db0e4f52b82b" />
+![Wireless Security Configuration](screenshots/04-wireless-security-configuration.png)
 
 
 With WPA2-Personal, only authorized clients with the correct password can connect to the WLAN.
@@ -91,7 +90,7 @@ The laptop was configured to connect to the `MyHome` wireless network.
 
 Once connected to the wireless router, the laptop then received its network configuration and established communication on the network.
 
-<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/0638fc5f-ee0f-47c0-ba76-95dab1377b93" />
+![Laptop Wireless Connection](screenshots/05-laptop-wireless-connection.png)
 
 
 The wireless client received:
@@ -107,7 +106,7 @@ The wireless client received:
 
 The ipconfig command was used to verify the laptop's Layer 3 network configuration.
 
-<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/003a0e82-b576-4dbc-81c8-18ca649fa0aa" />
+![Laptop IP Configuration](screenshots/06-laptop-ipconfig.png)
 
 
 The output of the ipconfig command on the laptop shows that the wireless interface has been configured with an IPv4 address of 192.168.0.4/24 and the default gateway is 192.168.0.1.
@@ -124,7 +123,7 @@ The test returned:
 
 Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
 
-<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/b60c568b-ee7b-4f97-a0d0-dd7be3e3248a" />
+![Default Gateway Ping](screenshots/07-ping-default-gateway.png)
 
 
 This verifies successful communication with the home wireless router from the wireless client.
@@ -147,7 +146,7 @@ The final connectivity test returned:
 
 Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
 
-<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/f4b2123c-f748-4711-9b68-f01500a15a7e" />
+![External Server Connectivity](screenshots/08-external-server-connectivity.png)
 
 
 This verified successful communication from the wireless client through the home network and ISP infrastructure to an external server.
@@ -162,7 +161,7 @@ The client successfully accessed:
 
 http://skillsforall.srv
 
-<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/6a0de82b-aeba-4cc6-93ae-13ec6877322a" />
+![Web Server Connectivity](screenshots/09-web-server-connectivity.png)
 
 
 The successful webpage response further verified that application-layer connectivity existed in addition to ICMP connectivity.
@@ -177,8 +176,7 @@ The completed Packet Tracer activity was evaluated using the built-in assessment
 
 **19 / 19 assessment items successfully completed.**
 
-<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/7ea11026-56a4-4060-8e8f-1cebff81ee1d" />
-
+![Packet Tracer Assessment Results](screenshots/Successful%20lab%20completion.png)
 
 The assessment verified configuration items including:
 
